@@ -13,7 +13,7 @@ module.exports = {
   devtool: process.env.NODE_ENV === 'development' ? 'inline-source-map' : false,
   entry: objectTreeToPathsObject(entries),
   output: {
-    library: 'ui-design-system',
+    library: 'webpack-repo',
     libraryTarget: 'umd',
     umdNamedDefine: true,
     path: path.resolve(`./`),
